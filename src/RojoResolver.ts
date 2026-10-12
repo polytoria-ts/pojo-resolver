@@ -63,16 +63,13 @@ const SUB_EXT_TYPE_MAP = new Map<string, RbxType>([
 ]);
 
 const DEFAULT_ISOLATED_CONTAINERS: Array<RbxPath> = [
-	["StarterPack"],
-	["StarterGui"],
-	["StarterPlayer", "StarterPlayerScripts"],
-	["StarterPlayer", "StarterCharacterScripts"],
-	["StarterPlayer", "StarterCharacter"],
-	["PluginDebugService"],
+	["PlayerDefaults"],
+	["PlayerDefaults", "Inventory"],
+	["PlayerGUI"],
 ];
 
-const CLIENT_CONTAINERS = [["StarterPack"], ["StarterGui"], ["StarterPlayer"]];
-const SERVER_CONTAINERS = [["ServerStorage"], ["ServerScriptService"]];
+const CLIENT_CONTAINERS = [["PlayerDefaults"], ["PlayerGUI"]];
+const SERVER_CONTAINERS = [["ServerHidden"], ["ScriptService"]];
 
 /**
  * Represents a roblox tree path.
