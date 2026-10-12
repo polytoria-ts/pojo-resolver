@@ -5,7 +5,7 @@
 	"main": "out/RojoResolver.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pine-forest-dweller/rojo-resolver.git"
+		"url": "https://github.com/polytoria-ts/pojo-resolver.git"
 	},
 	"scripts": {
 		"prepublishOnly": "npm run build",
